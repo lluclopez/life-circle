@@ -1,0 +1,11 @@
+#Flutter
+build/
+.dart_tool/
+.packages
+
+#Latex
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

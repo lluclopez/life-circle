@@ -1,0 +1,48 @@
+/
+├── .github/
+│   └── workflows/          # Para GitHub Actions (CI/CD)
+│       └── ci.yml
+│
+├── mobile-app/             # Código fuente de la aplicación Flutter
+│   ├── android/
+│   ├── ios/
+│   ├── lib/
+│   ├── test/
+│   ├── pubspec.yaml
+│   └── README.md           # Instrucciones específicas para la app móvil
+│
+├── backend/                # Código fuente del backend (Node.js o Python)
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── middleware/
+│   ├── tests/
+│   ├── package.json        # Si usas Node.js
+│   ├── requirements.txt    # Si usas Python
+│   ├── Dockerfile
+│   └── .env.example        # Plantilla para variables de entorno
+│
+├── database/               # Scripts y configuraciones de la BBDD
+│   ├── migrations/         # Scripts para crear/modificar tablas o colecciones
+│   └── seeds/              # Datos de ejemplo para poblar la BBDD
+│
+├── memoria/                # Todo el contenido de tu memoria en LaTeX
+│   ├── chapters/
+│   │   ├── 01_introduccion.tex
+│   │   ├── 02_antecedentes.tex
+│   │   ├── 03_objetivos.tex
+│   │   ├── 04_desarrollo.tex
+│   │   ├── 05_conclusiones.tex
+│   │   └── ...
+│   ├── images/             # Todas las imágenes, diagramas, capturas de pantalla
+│   ├── main.tex            # Archivo principal que compila todo
+│   ├── references.bib      # Bibliografía en formato BibTeX
+│   ├── Makefile            # Para automatizar la compilación del PDF
+│   └── README.md           # Instrucciones sobre cómo compilar la memoria
+│
+├── docker-compose.yml      # Para orquestar backend y base de datos fácilmente
+├── .gitignore              # ¡MUY IMPORTANTE! Ignora archivos que no deben subirse
+├── LICENSE                 # Licencia del proyecto (ej. MIT)
+└── README.md               # Archivo README principal del proyecto
